@@ -16,6 +16,9 @@ body {
   color: #0f0f0f;
   box-shadow: 0px 15px 10px -15px #111;
 }
+.all-navbar.fixed-nav .just-home a {
+  color: #0f0f0f !important;
+}
 
 .all-navbar .mbl-menu-btn {
   position: absolute;
@@ -36,6 +39,12 @@ body {
 }
 .all-navbar .mbl-logo img {
   width: 90%;
+}
+.all-navbar .just-home a {
+  color: #ffffff !important;
+}
+.all-navbar .main-nav a {
+  color: #0f0f0f;
 }
 .all-navbar .main-nav .close-nav {
   position: absolute;
@@ -68,12 +77,14 @@ body {
 .all-navbar .main-nav .top-nav .top-menu ul li a {
   text-decoration: none;
   font-family: "Gilroy", sans-serif;
-  color: #0f0f0f;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   transition: all 0.3s ease-in-out;
+}
+.all-navbar .main-nav .top-nav .top-menu ul li a .active {
+  color: #f9b11c;
 }
 .all-navbar .main-nav .top-nav .top-menu ul li a:hover {
   color: #f9b11c;
@@ -95,7 +106,6 @@ body {
 .all-navbar .main-nav .top-nav .top-menu .phone li a {
   text-decoration: none;
   font-family: "Gilroy", sans-serif;
-  color: #0f0f0f;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -119,7 +129,6 @@ body {
 .all-navbar .main-nav .top-nav .top-menu .fd-location li a {
   text-decoration: none;
   font-family: "Gilroy", sans-serif;
-  color: #0f0f0f;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -148,7 +157,6 @@ body {
 .all-navbar .main-nav .sub-menu .menu-list ul li a {
   text-decoration: none;
   font-family: "Gilroy", sans-serif;
-  color: #0f0f0f;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -163,13 +171,13 @@ body {
 }
 .all-navbar .main-nav .sub-menu .menu-list ul button {
   margin-left: 3rem;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 1rem 0.55rem 1rem;
   background-color: #f9b11c;
   border: none;
 }
 .all-navbar .main-nav .sub-menu .menu-list ul button a {
   border-radius: 1px;
-  color: #0f0f0f;
+  color: #0f0f0f !important;
   text-decoration: none;
   font-weight: 600;
   font-size: 12px;
